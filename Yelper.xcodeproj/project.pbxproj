@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEED8E2719D1D0BF004F1A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED8E2619D1D0BF004F1A45 /* AppDelegate.swift */; };
+		DEED8E2919D1D0BF004F1A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED8E2819D1D0BF004F1A45 /* ViewController.swift */; };
+		DEED8E2C19D1D0BF004F1A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEED8E2A19D1D0BF004F1A45 /* Main.storyboard */; };
+		DEED8E2E19D1D0BF004F1A45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEED8E2D19D1D0BF004F1A45 /* Images.xcassets */; };
+		DEED8E3119D1D0BF004F1A45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEED8E2F19D1D0BF004F1A45 /* LaunchScreen.xib */; };
+		DEED8E3D19D1D0BF004F1A45 /* YelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED8E3C19D1D0BF004F1A45 /* YelperTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEED8E3719D1D0BF004F1A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEED8E1919D1D0BF004F1A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEED8E2019D1D0BF004F1A45;
+			remoteInfo = Yelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEED8E2119D1D0BF004F1A45 /* Yelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEED8E2519D1D0BF004F1A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEED8E2619D1D0BF004F1A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEED8E2819D1D0BF004F1A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEED8E2B19D1D0BF004F1A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEED8E2D19D1D0BF004F1A45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEED8E3019D1D0BF004F1A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEED8E3619D1D0BF004F1A45 /* YelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEED8E3B19D1D0BF004F1A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEED8E3C19D1D0BF004F1A45 /* YelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEED8E1E19D1D0BF004F1A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEED8E3319D1D0BF004F1A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEED8E1819D1D0BF004F1A45 = {
+			isa = PBXGroup;
+			children = (
+				DEED8E2319D1D0BF004F1A45 /* Yelper */,
+				DEED8E3919D1D0BF004F1A45 /* YelperTests */,
+				DEED8E2219D1D0BF004F1A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEED8E2219D1D0BF004F1A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEED8E2119D1D0BF004F1A45 /* Yelper.app */,
+				DEED8E3619D1D0BF004F1A45 /* YelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEED8E2319D1D0BF004F1A45 /* Yelper */ = {
+			isa = PBXGroup;
+			children = (
+				DEED8E2619D1D0BF004F1A45 /* AppDelegate.swift */,
+				DEED8E2819D1D0BF004F1A45 /* ViewController.swift */,
+				DEED8E2A19D1D0BF004F1A45 /* Main.storyboard */,
+				DEED8E2D19D1D0BF004F1A45 /* Images.xcassets */,
+				DEED8E2F19D1D0BF004F1A45 /* LaunchScreen.xib */,
+				DEED8E2419D1D0BF004F1A45 /* Supporting Files */,
+			);
+			path = Yelper;
+			sourceTree = "<group>";
+		};
+		DEED8E2419D1D0BF004F1A45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEED8E2519D1D0BF004F1A45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEED8E3919D1D0BF004F1A45 /* YelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEED8E3C19D1D0BF004F1A45 /* YelperTests.swift */,
+				DEED8E3A19D1D0BF004F1A45 /* Supporting Files */,
+			);
+			path = YelperTests;
+			sourceTree = "<group>";
+		};
+		DEED8E3A19D1D0BF004F1A45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEED8E3B19D1D0BF004F1A45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEED8E2019D1D0BF004F1A45 /* Yelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEED8E4019D1D0BF004F1A45 /* Build configuration list for PBXNativeTarget "Yelper" */;
+			buildPhases = (
+				DEED8E1D19D1D0BF004F1A45 /* Sources */,
+				DEED8E1E19D1D0BF004F1A45 /* Frameworks */,
+				DEED8E1F19D1D0BF004F1A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yelper;
+			productName = Yelper;
+			productReference = DEED8E2119D1D0BF004F1A45 /* Yelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEED8E3519D1D0BF004F1A45 /* YelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEED8E4319D1D0BF004F1A45 /* Build configuration list for PBXNativeTarget "YelperTests" */;
+			buildPhases = (
+				DEED8E3219D1D0BF004F1A45 /* Sources */,
+				DEED8E3319D1D0BF004F1A45 /* Frameworks */,
+				DEED8E3419D1D0BF004F1A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEED8E3819D1D0BF004F1A45 /* PBXTargetDependency */,
+			);
+			name = YelperTests;
+			productName = YelperTests;
+			productReference = DEED8E3619D1D0BF004F1A45 /* YelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEED8E1919D1D0BF004F1A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Aditya Parikh";
+				TargetAttributes = {
+					DEED8E2019D1D0BF004F1A45 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DEED8E3519D1D0BF004F1A45 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DEED8E2019D1D0BF004F1A45;
+					};
+				};
+			};
+			buildConfigurationList = DEED8E1C19D1D0BF004F1A45 /* Build configuration list for PBXProject "Yelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEED8E1819D1D0BF004F1A45;
+			productRefGroup = DEED8E2219D1D0BF004F1A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEED8E2019D1D0BF004F1A45 /* Yelper */,
+				DEED8E3519D1D0BF004F1A45 /* YelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEED8E1F19D1D0BF004F1A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEED8E2C19D1D0BF004F1A45 /* Main.storyboard in Resources */,
+				DEED8E3119D1D0BF004F1A45 /* LaunchScreen.xib in Resources */,
+				DEED8E2E19D1D0BF004F1A45 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEED8E3419D1D0BF004F1A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEED8E1D19D1D0BF004F1A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEED8E2919D1D0BF004F1A45 /* ViewController.swift in Sources */,
+				DEED8E2719D1D0BF004F1A45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEED8E3219D1D0BF004F1A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEED8E3D19D1D0BF004F1A45 /* YelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEED8E3819D1D0BF004F1A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEED8E2019D1D0BF004F1A45 /* Yelper */;
+			targetProxy = DEED8E3719D1D0BF004F1A45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEED8E2A19D1D0BF004F1A45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEED8E2B19D1D0BF004F1A45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEED8E2F19D1D0BF004F1A45 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEED8E3019D1D0BF004F1A45 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEED8E3E19D1D0BF004F1A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEED8E3F19D1D0BF004F1A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEED8E4119D1D0BF004F1A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEED8E4219D1D0BF004F1A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEED8E4419D1D0BF004F1A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelper.app/Yelper";
+			};
+			name = Debug;
+		};
+		DEED8E4519D1D0BF004F1A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelper.app/Yelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEED8E1C19D1D0BF004F1A45 /* Build configuration list for PBXProject "Yelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED8E3E19D1D0BF004F1A45 /* Debug */,
+				DEED8E3F19D1D0BF004F1A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEED8E4019D1D0BF004F1A45 /* Build configuration list for PBXNativeTarget "Yelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED8E4119D1D0BF004F1A45 /* Debug */,
+				DEED8E4219D1D0BF004F1A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEED8E4319D1D0BF004F1A45 /* Build configuration list for PBXNativeTarget "YelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED8E4419D1D0BF004F1A45 /* Debug */,
+				DEED8E4519D1D0BF004F1A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEED8E1919D1D0BF004F1A45 /* Project object */;
+}
