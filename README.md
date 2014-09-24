@@ -3,7 +3,8 @@ Yelper
 
 How many hours did it take to complete?
 
-5. 
+5 
+
 
 Search results page
 
